@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f2bd8a6b-3083-4970-b116-0d6af011bf90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Pokemon">
+      <UniqueIdentifier>{7d0d1490-6b45-4455-aced-dbe47fdb79fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Stadium">
+      <UniqueIdentifier>{0192db0b-1bd9-4482-85d6-625cf46f6b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\SpecialAttack">
+      <UniqueIdentifier>{f77090eb-9580-4462-9b17-c14ba650666f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLoader\Shader_Loader.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader\Texture_Loader.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxLoader\Skybox_Loader.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassPokemon\Pokemon_Maker.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShaderLoader\Shader_Loader.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader\Texture_Loader.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxLoader\Skybox_Loader.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader\Mesh.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader\Model.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassPokemon\Pokemon_Maker.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="skyboxFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="skyboxVS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="vertexPokemon1.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fragPokemon1.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fragPokemon2.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="vertexPokemon2.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ClassPokemon\shader\fragPokemon.glsl">
+      <Filter>Shaders\Pokemon</Filter>
+    </None>
+    <None Include="ClassPokemon\shader\vertexPokemon.glsl">
+      <Filter>Shaders\Pokemon</Filter>
+    </None>
+    <None Include="FragStadium.glsl">
+      <Filter>Shaders\Stadium</Filter>
+    </None>
+    <None Include="VertexStadium.glsl">
+      <Filter>Shaders\Stadium</Filter>
+    </None>
+    <None Include="FragSA.glsl">
+      <Filter>Shaders\SpecialAttack</Filter>
+    </None>
+    <None Include="VertexSA.glsl">
+      <Filter>Shaders\SpecialAttack</Filter>
+    </None>
+  </ItemGroup>
+</Project>
